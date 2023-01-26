@@ -1,4 +1,5 @@
 import { Header } from './components/Header';
+import { Sidebar } from './components/Sidebar';
 
 import  './global.css';
 
@@ -6,7 +7,10 @@ function App() {
   return (
     <>
       <Header />
-      <h1>teste</h1>
+      <div>
+        <Sidebar />
+      </div>
+      
     </>
   )
 }
